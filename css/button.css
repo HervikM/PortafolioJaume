@@ -1,0 +1,33 @@
+.button{
+  background: var(--primary);
+  border:none;
+  color: var(--white);
+  font: var(--button);
+  padding-inline-start: 1.5rem;
+  padding-inline-end:1.5rem ;
+  padding-block-start:.825rem ;
+  padding-block-end:.825rem ;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button.is-secondary{
+  background: unset;
+  border:2px solid var(--primary);
+  color: var(--primary);
+  font: var(--button);
+  padding-inline-start: 1.5rem;
+  padding-inline-end:1.5rem ;
+  padding-block-start:.825rem ;
+  padding-block-end:.825rem ;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+/* ipad */
+@media screen and (min-width:768px){
+
+}
