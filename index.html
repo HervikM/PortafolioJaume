@@ -16,7 +16,7 @@
     <header class="header">
       <img src="images/LOGO.png" width="70" height="20" alt="Logo">
 
-      <nav class="menu">
+      <nav class="menu" aria-label="main-navigation">
         <ul>
           <li>
             <a class="is-active" href="#main">Hola</a>
@@ -34,7 +34,7 @@
     </header>
 
 
-    <section class="hero" id="main">
+    <section aria-label="main" class="hero" id="main">
       <div class="hero-image">
         <img src="./images/user.png" width="338" height="330" alt="Usuario">
       </div>
@@ -47,7 +47,7 @@
 
         <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
 
-        <div class="hero-social">
+        <div class="social">
           <a class="button-icon" href="#">
             <img src="./icons/icon-phone.svg" alt="icono de telefono">
           </a>
@@ -67,6 +67,180 @@
 
 
     </section>
+
+    <main class="projects" id="project">
+
+      <div class="projects-presentation">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+        </p>
+        <h3>Aquí hay algunos que me gustaría compartir.</h3>
+        <div class="projects-icon">
+          <img  src="icons/icons-down.svg" width="80" height="80" alt="arrow down">
+        </div>
+
+      </div>
+
+
+      <!-- proyecto 1 -->
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="images/img.png"  alt="imagen de proyecto">
+        </div>
+
+        <div class="testimony-description">
+
+          <a target="_blank" class="tittle">
+            leonidasesteban.com
+          </a>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.</p>
+          <a target="_blank" class="button is-secondary" href="#">Ver codigo</a>
+          <a target="_blank" class="button" href="#">Ver proyecto</a>
+        </div>
+      </div>
+
+<div class="comment-project">
+
+        <div class="image-commentProject">
+          <img src="images/user (3).png" width="64" height="64" alt="">
+        </div>
+
+        <div class="feedback-commentProject">
+          <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les
+          llevó 1,5 meses ".</p>
+        </div>
+
+        <div class="autor-commentProject">
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+
+      </div>
+
+
+      <!-- proyecto 2 -->
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="images/📱 iPad.png" alt="imagen de proyecto">
+        </div>
+
+        <div class="testimony-description">
+
+          <a target="_blank" class="tittle">
+            Marvol
+          </a>
+          <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
+          más oficiales de Marvol.</p>
+          <a target="_blank" class="button is-secondary" href="#">Ver codigo</a>
+          <a target="_blank" class="button" href="#">Ver proyecto</a>
+        </div>
+      </div>
+
+      <div class="comment-project">
+
+        <div class="image-commentProject">
+          <img src="images/user (2).png" width="64" height="64" alt="">
+        </div>
+
+        <div class="feedback-commentProject">
+          <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+        </div>
+
+        <div class="autor-commentProject">
+          <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+        </div>
+
+      </div>
+
+      <!-- proyecto 3 -->
+      <div class="testimony">
+        <div class="testimony-image">
+          <img src="images/📱 Iphone X.png" alt="imagen de proyecto">
+        </div>
+
+        <div class="testimony-description">
+
+          <a target="_blank" class="tittle">
+            Netnet
+          </a>
+          <p>Películas y series ilimitadas y mucho más.
+          Disfruta donde quieras. Cancela cuando quieras.</p>
+          <a target="_blank" class="button is-secondary" href="#">Ver codigo</a>
+          <a target="_blank" class="button" href="#">Ver proyecto</a>
+        </div>
+      </div>
+
+      <div class="comment-project">
+
+              <div class="image-commentProject">
+                <img src="images/user (1).png" width="64" height="64" alt="">
+              </div>
+
+              <div class="feedback-commentProject">
+                <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+              </div>
+
+              <div class="autor-commentProject">
+                <p>MARCO CORTEZ / NETNET</p>
+              </div>
+
+            </div>
+
+    </main>
+
+    <!-- Formulario -->
+    <form action="#" class="formulario" id="contact">
+      <h2 class="tittle">HABLEMOS</h2>
+      <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+      no dude en ponerse en contacto conmigo.</p>
+
+      <label for="name">Nombre completo
+        <input required name="txtname"  type="text" id="name" placeholder="Juan">
+      </label>
+
+      <label for="email">Correo electrónico
+        <input required name="txtemail" type="email" id="email" placeholder="juan@gmail.com">
+      </label>
+
+      <label for="message">Mensaje
+        <textarea name="txtmsj" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+      </label>
+
+      <button type="submit" class="button" >Enviar Mensaje</button>
+
+    </form>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <img src="images/LOGO.png" width="70" height="20" alt="Logo">
+      </div>
+
+
+      <div class="social">
+        <a class="button-icon" href="#">
+          <img src="./icons/icon-phone.svg" alt="icono de telefono">
+        </a>
+        <a class="button-icon" href="#">
+          <img src="./icons/icon-important_mail.svg" alt="icono de telefono">
+        </a>
+        <a class="button-icon" href="#">
+          <img src="./icons/icon-instagram.svg" alt="icono de telefono">
+        </a>
+        <a class="button-icon" href="#">
+          <img src="./icons/icon-twitter_squared.svg" alt="icono de telefono">
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>Hecho con el ❤ por Hervik.  </p>
+        <p>Copyright 2021 - Todos los derechos reservados.</p>
+      </div>
+
+
+    </footer>
   </div>
 
 

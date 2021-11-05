@@ -1,0 +1,36 @@
+@import './testimony.css';
+@import './projects-comment.css';
+
+
+
+.projects{
+  margin-block-start: 40px;
+}
+
+.projects-presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-presentation p{
+  margin: 0;
+  font: var(--body1);
+  font-size: 1.2rem;
+  text-align: center;
+}
+.projects-presentation h3 {
+  margin-block-start: 24px;
+  font: var(--button);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.projects-icon{
+  display: flex;
+  justify-content: center;
+}
+.projects-presentation img{
+  inline-size: 80px;
+  block-size: 80px;
+}
